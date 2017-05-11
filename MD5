@@ -1,0 +1,14 @@
+7261b1ffdb48a217aefc815832347199 *DESCRIPTION
+9a05705f8940edfe1f34ae7acba76d49 *NAMESPACE
+f419431a7e9215534adbd925d098389c *R/dental.R
+032e111313090ad55108ca07b2f5795b *R/gmediate.R
+af168ca99c06abd9ac54a5b11e78365d *build/vignette.rds
+987c506961e4aa86bf58e3b2ffd7d1e4 *data/dental.rda
+b53c30da688e603b9a2ae70a9cb07af3 *inst/doc/gmediate.Rmd
+e06fac97c131a371dfcccfd560489105 *inst/doc/gmediate.html
+62f6a1218db99432265147d2e1bfe0e7 *man/dental.Rd
+bbdc1e023dabb8a4d4167298a1f031e9 *man/gmediate.Rd
+3a5e7ca4a6e7a125603ab0cb03aa1757 *vignettes/example1.png
+f0edcd738fbdd1f45ebe9b43d8096250 *vignettes/example2.png
+b53c30da688e603b9a2ae70a9cb07af3 *vignettes/gmediate.Rmd
+203341d2f1ad8029b8cb65490a21f138 *vignettes/gmediation.png
