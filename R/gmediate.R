@@ -1322,7 +1322,9 @@ gmediate = function(data, model.m1, model.m2, model.y, expos, ref = NULL,
     mfit[[numberofm1+k]][[2]] = summary(modelb.m2[[k]])$coefficient
   }
   # model for y
-  mfit[[numberofm1+numberofm2+1]][[1]] = modelb.y$formula
+  if (family.y == "negbin")
+    {mfit[[numberofm1+numberofm2+1]][[1]] = call.y$formula} else
+    {mfit[[numberofm1+numberofm2+1]][[1]] = modelb.y$formula}
   mfit[[numberofm1+numberofm2+1]][[2]] = summary(modelb.y)$coefficient
 
   return(invisible(list(indiv.path = table1n, total.path = table2n, first.path = table3n, second.path = table4n,
